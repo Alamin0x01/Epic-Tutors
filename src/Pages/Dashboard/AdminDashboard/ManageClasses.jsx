@@ -100,7 +100,7 @@ const ManageClasses = () => {
   return (
     <div className="w-full">
       <Helmet>
-        <title>Manage Classes | Edu-Cademy</title>
+        <title>Manage Classes | Epic Tutors</title>
       </Helmet>
       <SectionTitle title="Manage Classes" />
       <div className="overflow-x-auto">

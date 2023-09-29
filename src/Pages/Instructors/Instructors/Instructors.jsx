@@ -21,7 +21,7 @@ const Instructors = () => {
   return (
     <div>
       <Helmet>
-        <title>Instructors | Edu-Cademy</title>
+        <title>Instructors | Epic Tutors</title>
       </Helmet>
       <SectionTitle title="Instructors" />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-5">

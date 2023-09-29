@@ -52,7 +52,7 @@ const Login = () => {
   return (
     <div>
       <Helmet>
-        <title>Login | Edu-Cademy</title>
+        <title>Login | Epic Tutors</title>
       </Helmet>
       <SectionTitle title="Login" />
       <div className="flex gap-40 mb-8 ml-48">

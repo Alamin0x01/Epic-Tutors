@@ -17,9 +17,9 @@ const Footer = () => {
             alt=""
           />
           <p>
-            Edu-Cademy
+            Epic Tutors
             <br />
-            support@Edu-Cademy.com <br />
+            support@Epic Tutors.com <br />
             +880 175634456
           </p>
         </div>
@@ -58,23 +58,23 @@ const Footer = () => {
             Bonani Road <br />
             Dhaka
             <br />
-            1st floor, Edu-Cademy
+            1st floor, Epic Tutors
           </p>
         </div>
         <div>
           <span className="footer-title">Social Links</span>
           <div className="mb-4">
             <div className="flex space-x-4">
-              <a href="https://www.facebook.com/Edu-Cademy">
+              <a href="https://www.facebook.com/Epic Tutors">
                 <FaFacebook className="text-3xl cursor-pointer hover:text-orange" />
               </a>
-              <a href="https://www.instagram.com/Edu-Cademy/">
+              <a href="https://www.instagram.com/Epic Tutors/">
                 <FaInstagramSquare className="text-3xl cursor-pointer hover:text-orange" />
               </a>
-              <a href="https://twitter.com/Edu-Cademy">
+              <a href="https://twitter.com/Epic Tutors">
                 <FaTwitter className="text-3xl cursor-pointer hover:text-orange" />
               </a>
-              <a href="https://github.com/Edu-Cademy">
+              <a href="https://github.com/Epic Tutors">
                 <FaGithub className="text-3xl cursor-pointer hover:text-orange" />
               </a>
             </div>
@@ -85,7 +85,7 @@ const Footer = () => {
         <div className=" items-center mt-8">
           <div className="border-t border-orange mx-auto mb-6"></div>
           <div className="text-center">
-            <p>Copyright © Edu-Cademy - 2023 - All right reserved</p>
+            <p>Copyright © Epic Tutors - 2023 - All right reserved</p>
           </div>
         </div>
       </div>

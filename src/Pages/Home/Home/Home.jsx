@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Edu-Cademy</title>
+        <title>Epic Tutors</title>
       </Helmet>
       <Banner />
       <div className="w-full mt-96 h-full sm:h-full absolute -z-10">

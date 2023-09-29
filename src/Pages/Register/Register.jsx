@@ -69,7 +69,7 @@ const Register = () => {
         </div>
         <div className="w-96 shadow-2xl bg-base-100">
           <Helmet>
-            <title>Register | Edu-Cademy</title>
+            <title>Register | Epic Tutors</title>
           </Helmet>
 
           <form onSubmit={handleSubmit(onSubmit)} className="card-body">

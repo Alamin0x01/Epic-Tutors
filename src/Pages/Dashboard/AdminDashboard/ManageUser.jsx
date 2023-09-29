@@ -48,7 +48,7 @@ const ManageUser = () => {
   return (
     <div>
       <Helmet>
-        <title>Manage Users | Edu-Cademy</title>
+        <title>Manage Users | Epic Tutors</title>
       </Helmet>
       <SectionTitle title="Manage Users" />
       <table className="table w-full">

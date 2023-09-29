@@ -39,7 +39,7 @@ const AddClass = () => {
   return (
     <div>
       <Helmet>
-        <title>Add Class | Edu-Cademy</title>
+        <title>Add Class | Epic Tutors</title>
       </Helmet>
       <SectionTitle title="Add Class" />
       <form onSubmit={handleSubmit(onSubmit)}>

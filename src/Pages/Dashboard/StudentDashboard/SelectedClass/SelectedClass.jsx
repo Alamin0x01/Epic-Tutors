@@ -27,7 +27,7 @@ const SelectedClass = () => {
   return (
     <div>
       <Helmet>
-        <title>Selected Class | Edu-Cademy</title>
+        <title>Selected Class | Epic Tutors</title>
       </Helmet>
       <SectionTitle title="Selected Class" />
       <div className="uppercase font-semibold h-[60px] flex justify-evenly items-center">

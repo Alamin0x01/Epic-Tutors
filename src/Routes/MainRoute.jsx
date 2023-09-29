@@ -8,7 +8,6 @@ import Register from "../Pages/Register/Register";
 import DashboardLayout from "../Layout/DashboardLayout";
 import SelectedClass from "../Pages/Dashboard/StudentDashboard/SelectedClass/SelectedClass";
 import PrivateRoute from "./PrivateRoute";
-import Payment from "../Pages/Dashboard/Payment/Payment";
 import AdminRoute from "./AdminRoute";
 import ManageUser from "../Pages/Dashboard/AdminDashboard/ManageUser";
 import ManageClasses from "../Pages/Dashboard/AdminDashboard/ManageClasses";
@@ -96,14 +95,7 @@ const router = createBrowserRouter([
           </StudentRoute>
         ),
       },
-      {
-        path: "payment",
-        element: (
-          <StudentRoute>
-            <Payment />
-          </StudentRoute>
-        ),
-      },
+
       {
         path: "enrolledClasses",
         element: (

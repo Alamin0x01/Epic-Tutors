@@ -3,7 +3,6 @@ import useAuth from "../../hooks/useAuth";
 import useAdmin from "../../hooks/useAdmin";
 import useInstructor from "../../hooks/UseInstructor";
 import useStudent from "../../hooks/useStudent";
-import DarkMode from "./DarkMode";
 
 const NavBar = () => {
   const { user, logOut } = useAuth();
@@ -91,8 +90,8 @@ const NavBar = () => {
         </div>
         <Link to="/" className="navbar-brand hidden md:block">
           <img
-            className=" w-32 "
-            src="https://i.ibb.co/bQxpnbc/of-HD-N1-QIFy-I4-AAAAASUVORK5-CYII.jpg"
+            className=" w-32 h-20 "
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ9lxFcPMHpwKWB0IXVuTTwGms6niJaxy0FNKYA7LN4EVAFFe52vPG2fLMvlesPKQLJv8&usqp=CAU"
             alt="logo"
           />
         </Link>
@@ -121,9 +120,6 @@ const NavBar = () => {
           </Link>
         )}
       </div>
-      <li className="ml-3 text-cyan-500">
-        <DarkMode />
-      </li>
     </div>
   );
 };

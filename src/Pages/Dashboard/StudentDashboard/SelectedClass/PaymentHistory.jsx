@@ -42,7 +42,7 @@ const PaymentHistory = () => {
   return (
     <div>
       <Helmet>
-        <title>Payment History | Edu-Cademy</title>
+        <title>Payment History | Epic Tutors</title>
       </Helmet>
       <SectionTitle title="Payment History" />
       <div className="overflow-x-auto">
