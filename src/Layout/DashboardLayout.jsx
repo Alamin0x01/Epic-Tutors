@@ -69,13 +69,7 @@ const DashboardLayout = () => {
                 </li>
               </>
             )}
-            {isStudent && (
-              <>
-                <li>
-                  <NavLink to="/dashboard/enrolledClasses">My learning</NavLink>
-                </li>
-              </>
-            )}
+            {isStudent && <></>}
             <div className="divider"></div>
             <li>
               <NavLink to="/">Home</NavLink>{" "}

@@ -52,7 +52,7 @@ const PopularClasses = () => {
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
               >
-                {item.name}
+                {item.instructor}
               </motion.h2>
               <motion.p
                 className="text-2xl font-semibold"
@@ -60,11 +60,11 @@ const PopularClasses = () => {
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
               >
-                Instructor: {item.instructor}
+                {item.name}
               </motion.p>
               <div className="flex justify-evenly">
                 <p>Total Enrolled: {item.enrolled}</p>
-                <p>Price: {item.price}$</p>
+                <p>Cost: $ Free</p>
               </div>
             </div>
           </motion.div>

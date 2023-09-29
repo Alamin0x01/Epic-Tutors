@@ -79,10 +79,8 @@ const Classes = () => {
               <img src={item.image} alt="" />
             </figure>
             <div className="card-body bg-cyan-100 ">
-              <h2 className="card-title">{item.name}</h2>
-              <p className="text-2xl font-semibold">
-                Instructor: {item.instructor}
-              </p>
+              <h2 className="card-title">{item.instructor}</h2>
+              <p className="text-2xl font-semibold">{item.name}</p>
               <div className="flex justify-evenly">
                 <p>Total Enrolled: {item.enrolled}</p>
                 <p>Cost: $ Free</p>

@@ -9,9 +9,9 @@ const SelectedClass = () => {
   return (
     <div>
       <Helmet>
-        <title>Selected Class | Epic Tutors</title>
+        <title>My Learning | Epic Tutors</title>
       </Helmet>
-      <SectionTitle title="Selected Class" />
+      <SectionTitle title="My Learning" />
       <div className="uppercase font-semibold h-[60px] flex justify-evenly items-center">
         <h3 className="text-2xl">Total Courses: {selectedClass?.length}</h3>
       </div>
