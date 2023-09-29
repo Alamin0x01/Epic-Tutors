@@ -29,8 +29,8 @@ const PopularClasses = () => {
   }
 
   return (
-    <div className="mb-3">
-      <SectionTitle title="Popular Classes" />
+    <div className="mb-3 mt-5">
+      <SectionTitle title="Most popular" />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-3">
         {data?.map((item, index) => (

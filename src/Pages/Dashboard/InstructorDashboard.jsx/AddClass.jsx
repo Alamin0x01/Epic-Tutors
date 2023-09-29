@@ -78,13 +78,6 @@ const AddClass = () => {
             type="number"
             required
             className="p-3 m-1 border-2 w-1/2"
-            placeholder="Price"
-            {...register("price")}
-          />
-          <input
-            type="number"
-            required
-            className="p-3 m-1 border-2 w-1/2"
             placeholder="Available Seats"
             {...register("available_seats")}
           />
