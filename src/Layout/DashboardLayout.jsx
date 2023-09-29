@@ -59,26 +59,20 @@ const DashboardLayout = () => {
                   <NavLink to="/dashboard/myclasses">My Classes</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/dashboard/addclass">Add Class</NavLink>
+                  <NavLink to="/dashboard/addclass">Add New Class</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/dashboard/">Uploading new content</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/dashboard">Manage</NavLink>
                 </li>
               </>
             )}
             {isStudent && (
               <>
                 <li>
-                  <NavLink to="/dashboard/selectedClass">
-                    Selected Classes
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/dashboard/enrolledClasses">
-                    Enrolled Classes
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/dashboard/paymentHistory">
-                    Payment History
-                  </NavLink>
+                  <NavLink to="/dashboard/enrolledClasses">My learning</NavLink>
                 </li>
               </>
             )}
@@ -87,11 +81,9 @@ const DashboardLayout = () => {
               <NavLink to="/">Home</NavLink>{" "}
             </li>
             <li>
-              <NavLink to="/classes">Classes</NavLink>{" "}
+              <NavLink to="/classes">Explore new Courses</NavLink>{" "}
             </li>
-            <li>
-              <NavLink to="/instructors">Instructors</NavLink>{" "}
-            </li>
+
             <li className="mt-auto">
               <button
                 onClick={handleLogout}
