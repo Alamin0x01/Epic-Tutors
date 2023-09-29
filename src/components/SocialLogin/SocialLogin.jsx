@@ -19,11 +19,14 @@ const SocialLogin = () => {
           image: user.photoURL,
           role: "student",
         };
-        fetch("https://summer-camp-server-side-six.vercel.app/adduser", {
-          method: "POST",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify(savedUser),
-        })
+        fetch(
+          "https://epic-tutors-server-side-cxea340sv-alamin0x01.vercel.app/adduser",
+          {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify(savedUser),
+          }
+        )
           .then((res) => res.json())
           .then((data) => {
             console.log(data);

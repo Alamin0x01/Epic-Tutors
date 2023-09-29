@@ -9,7 +9,7 @@ const PopularInstructors = () => {
     queryKey: ["popularInstructors"],
     queryFn: async () => {
       const res = await fetch(
-        "https://summer-camp-server-side-six.vercel.app/popularInstructors"
+        "https://epic-tutors-server-side-cxea340sv-alamin0x01.vercel.app/popularInstructors"
       );
       return res.json();
     },

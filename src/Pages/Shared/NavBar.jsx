@@ -18,18 +18,18 @@ const NavBar = () => {
     <>
       <li className="text-xl">
         <NavLink
-          to="/"
+          to="/classes"
           className={({ isActive }) => (isActive ? "active-link" : "link")}
         >
-          Home
+          Courses
         </NavLink>
       </li>
       <li className="text-xl">
         <NavLink
           to="/classes"
-          className={({ isActive }) => (isActive ? "active-link" : "link")}
+          className={({ isActive }) => (isActive ? "" : "link")}
         >
-          Classes
+          Programs & Degrees
         </NavLink>
       </li>
       <li className="text-xl">
@@ -37,28 +37,30 @@ const NavBar = () => {
           to="/instructors"
           className={({ isActive }) => (isActive ? "active-link" : "link")}
         >
-          Instructors
+          Schools & Partners
         </NavLink>
       </li>
-      {user && (
-        <li className="text-xl">
-          {isAdmin && (
-            <NavLink to="/dashboard/manageuser" className="link">
-              Dashboard
-            </NavLink>
-          )}
-          {isStudent && (
-            <NavLink to="/dashboard/selectedClass" className="link">
-              Dashboard
-            </NavLink>
-          )}
-          {isInstructor && (
-            <NavLink to="/dashboard/myclasses" className="link">
-              Dashboard
-            </NavLink>
-          )}
-        </li>
-      )}
+      <div className="ml-0">
+        {user && (
+          <li className="text-xl">
+            {isAdmin && (
+              <NavLink to="/dashboard/manageuser" className="link">
+                Dashboard
+              </NavLink>
+            )}
+            {isStudent && (
+              <NavLink to="/dashboard/selectedClass" className="link">
+                My learning
+              </NavLink>
+            )}
+            {isInstructor && (
+              <NavLink to="/dashboard/myclasses" className="link">
+                Dashboard
+              </NavLink>
+            )}
+          </li>
+        )}
+      </div>
     </>
   );
   return (
@@ -95,6 +97,13 @@ const NavBar = () => {
             alt="logo"
           />
         </Link>
+        <div className="form-control ">
+          <input
+            type="text"
+            placeholder="What do you want to learn?"
+            className="input input-bordered w-32 md:w-60"
+          />
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex items-center">
         <ul className="menu menu-horizontal px-1">{headerOptions}</ul>

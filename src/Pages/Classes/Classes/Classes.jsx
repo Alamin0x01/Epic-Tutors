@@ -12,7 +12,7 @@ const Classes = () => {
     queryKey: ["classes"],
     queryFn: async () => {
       const res = await fetch(
-        "https://summer-camp-server-side-six.vercel.app/classes"
+        "https://epic-tutors-server-side-cxea340sv-alamin0x01.vercel.app/classes"
       );
       return res.json();
     },
@@ -23,18 +23,20 @@ const Classes = () => {
       const selectedClass = {
         classId: item._id,
         className: item.name,
-        classPrice: item.price,
         instructor: item.instructor,
         name: user.name,
         email: user.email,
       };
-      fetch("https://summer-camp-server-side-six.vercel.app/selectClass", {
-        method: "POST",
-        headers: {
-          "content-type": "application/json",
-        },
-        body: JSON.stringify(selectedClass),
-      })
+      fetch(
+        "https://epic-tutors-server-side-cxea340sv-alamin0x01.vercel.app/selectClass",
+        {
+          method: "POST",
+          headers: {
+            "content-type": "application/json",
+          },
+          body: JSON.stringify(selectedClass),
+        }
+      )
         .then((res) => res.json())
         .then((data) => {
           if (data.insertedId) {
@@ -83,8 +85,7 @@ const Classes = () => {
               </p>
               <div className="flex justify-evenly">
                 <p>Total Enrolled: {item.enrolled}</p>
-                <p>Price: {item.price}</p>
-                <p>Available Seats: {item.available_seats}</p>
+                <p>Cost: $ Free</p>
               </div>
               <div className="card-actions justify-center">
                 <button
@@ -94,7 +95,7 @@ const Classes = () => {
                   className="btn btn-outline btn-info"
                   disabled={item.available_seats === 0 || !isStudent}
                 >
-                  Select Class
+                  Enroll now
                 </button>
               </div>
             </div>
