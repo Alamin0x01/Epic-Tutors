@@ -14,7 +14,6 @@ import ManageClasses from "../Pages/Dashboard/AdminDashboard/ManageClasses";
 import InstructorRoute from "./InstructorRoute";
 import StudentRoute from "./StudentRoute";
 import EnrolledClasses from "../Pages/Dashboard/StudentDashboard/SelectedClass/EnrolledClasses";
-import PaymentHistory from "../Pages/Dashboard/StudentDashboard/SelectedClass/PaymentHistory";
 import AddClass from "../Pages/Dashboard/InstructorDashboard.jsx/AddClass";
 import MyClasses from "../Pages/Dashboard/InstructorDashboard.jsx/MyClasses";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
@@ -101,14 +100,6 @@ const router = createBrowserRouter([
         element: (
           <StudentRoute>
             <EnrolledClasses />
-          </StudentRoute>
-        ),
-      },
-      {
-        path: "paymentHistory",
-        element: (
-          <StudentRoute>
-            <PaymentHistory />
           </StudentRoute>
         ),
       },

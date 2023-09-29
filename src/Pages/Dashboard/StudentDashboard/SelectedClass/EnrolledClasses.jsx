@@ -37,7 +37,6 @@ const EnrolledClasses = () => {
               <th></th>
               <th>Class Name</th>
               <th>Class Id</th>
-              <th>Price</th>
               <th>Status</th>
             </tr>
           </thead>
@@ -47,7 +46,6 @@ const EnrolledClasses = () => {
                 <td>{index + 1}</td>
                 <td>{item.className}</td>
                 <td>{item.classId}</td>
-                <td>{item.classPrice}</td>
                 <td>{item.status}</td>
               </tr>
             ))}

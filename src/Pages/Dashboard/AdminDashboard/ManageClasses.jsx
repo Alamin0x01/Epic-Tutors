@@ -113,7 +113,6 @@ const ManageClasses = () => {
               <th>Instructor Name</th>
               <th>Instructor Email</th>
               <th>Available Seats</th>
-              <th>Price</th>
               <th>Enrolled</th>
               <th>Status</th>
               <th></th>
@@ -134,7 +133,6 @@ const ManageClasses = () => {
                 <td>{classItem.instructor}</td>
                 <td>{classItem.email}</td>
                 <td>{classItem.available_seats}</td>
-                <td>{classItem.price}</td>
                 <td>{classItem.enrolled}</td>
                 <td>{classItem.status}</td>
                 <td className="flex gap-3">
