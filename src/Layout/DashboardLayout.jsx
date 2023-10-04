@@ -59,7 +59,7 @@ const DashboardLayout = () => {
                   <NavLink to="/dashboard/myclasses">My Classes</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/dashboard/addclass">Add New Class</NavLink>
+                  <NavLink to="/dashboard/add">Add New Class</NavLink>
                 </li>
                 <li>
                   <NavLink to="/dashboard/">Uploading new content</NavLink>
