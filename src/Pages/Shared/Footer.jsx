@@ -55,7 +55,7 @@ const Footer = () => {
           <span className="footer-title">Address</span>
           <p>
             South air, <br />
-            Bonani Road <br />
+            Mirpur Road <br />
             Dhaka
             <br />
             1st floor, Epic Tutors
