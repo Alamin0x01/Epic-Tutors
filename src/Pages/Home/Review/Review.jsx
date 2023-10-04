@@ -37,7 +37,7 @@ const Review = () => {
               With being new I had many apprehensions about ordering. They were
               not asking for my personal information just a reminder to go to
               the site and review. Excellent customer service and easy to work
-              with companies
+              with companies.
             </p>
           </div>
         </div>
