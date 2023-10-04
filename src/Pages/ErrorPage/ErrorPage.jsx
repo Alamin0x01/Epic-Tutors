@@ -16,7 +16,7 @@ const ErrorPage = () => {
               <Lottie animationData={errorPage} loop={true} />
             </div>
           </div>
-          <div className="text-center mt-32 mr-52 md:pl-36">
+          <div className="text-center mt-36 mr-52 md:pl-36">
             <p className="text-2xl font-semibold md:text-3xl mt-5  text-red-600">
               {error?.message}
             </p>
