@@ -77,7 +77,7 @@ const PopularClasses = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            See All Classes
+            See all classes
           </motion.button>
         </Link>
       </div>
